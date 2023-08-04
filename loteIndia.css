@@ -1,0 +1,297 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn_primary{
+    border: 1px solid #000 !important;
+    border-radius: 2rem !important;
+    font-size: 21px !important;
+}
+
+.wel_come{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.wel_come1{
+    font-size: 80px;
+    line-height: 0.5;
+}
+
+@media screen and (max-width:767px) {
+    .wel_come{
+        font-size: 50px;
+    }
+    
+    .wel_come1{
+        font-size: 50px;
+    }
+
+    .plate_form{
+        font-size: 24px !important;
+    }
+
+    .con_tent{
+        font-size: 22px !important;
+    }
+    
+    .ser_vice{
+        font-size: 30px !important;
+        margin-top: -45px;
+    }
+
+    .reverse_colum{
+        flex-direction: column-reverse;
+    }
+
+    .small_size{
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .foter_text{
+        font-size: 13px;
+    }
+
+    .float_right{
+        float: none !important;
+    }
+
+}
+
+@media screen and (min-width : 768px) and (max-width:991px) {
+    .wel_come{
+        font-size: 65px;
+    }
+    
+    .wel_come1{
+        font-size: 65px;
+    }
+
+    .plate_form{
+        font-size: 27px;
+    }
+
+    .img_walk{
+        padding-top: 100px !important;
+    }
+
+    .img_walk1{
+        padding-top: 40px !important;
+    }
+
+    .con_tent{
+        font-size: 20px !important;
+    }
+    
+    .ser_vice{
+        font-size: 30px !important;
+    }
+  
+}
+
+.foter_text{
+    font-size: 15px;
+    color: #8780e4;
+}
+
+.plate_form{
+    font-size: 30px;
+}
+
+.ser_vice{
+    font-size: 50px;
+    border-bottom: 3px solid red !important;
+    width: 90px;
+    padding-bottom: 5px;
+}
+
+.con_tent{
+    font-size: 20px;
+}
+
+.bg_light{
+    background-color: #fff;
+}
+
+.background_color{
+    background-color: #f2f2f2;
+}
+
+.img-logo{
+    height: auto;
+    width: 200px;
+}
+
+.btn__primary1{
+    background-color: #ce0000 !important;
+    color: #fff !important;
+    border-radius: 2rem !important;
+    box-shadow: none !important;
+    font-size: 20px !important;
+}
+
+.arrow_second{
+    width: 2rem;
+    font-weight: 900;
+    transition: all 0.3s;
+}
+
+.btn__primary1:hover .arrow_second{
+    margin-left: 15px;
+}
+
+.btn__primary1:hover{
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+}
+
+.arrow_first{
+    width: 20px;
+    font-weight: 900;
+}
+
+
+.nav__link{
+    text-decoration: none !important;
+    color: #8780e4;
+    font-size: 15px;
+}
+
+.nav__link:hover{
+    color: #8780e4;
+}
+
+.back_Footer{
+    background-color: #0f0e20;
+    color: #fff;
+}
+
+
+.card_data{
+    background-color: #fde9d2 !important;
+    border-radius: 20px !important;
+    border: none !important;
+    color: #4f2500 !important;
+}
+
+.pri_vacy{
+    border-bottom: 4px solid red;
+    width: 80px;
+    margin-top: -50px;
+}
+
+.term_data{
+    background-color: #fde9d2 !important;
+}
+
+.card_form{
+    border-radius: 0 !important;
+    box-shadow: 5px 4px 20px 5px #f2f2f2f2;
+}
+
+.edit_input{
+    box-shadow: none !important;
+    border-radius: 0.5rem !important;
+}
+
+.edit_label{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #7f7f7f;
+}
+
+::placeholder{
+    font-size: 14px;
+    color: #7f7f7f;
+}
+
+.navlink{
+    text-decoration: none !important;
+    color: #ce0000;
+    font-weight: 500;
+}
+
+.navlink:hover{
+    color: #ce0000;
+}
+
+.back_questions{
+    background-color: #f2f2f2;
+}
+
+.social_icon{
+    width: 25px;
+}
+
+.font_bold{
+    font-weight: 600;
+    color: #000;
+}
+
+.word_list{
+    font-size: 16px;
+
+}
+
+.policy_header{
+    color: red;
+    font-weight: 600;
+    padding-bottom: 0.5rem!important;
+    padding-top: 2rem!important;
+    font-size: 1.2rem;
+}
+
+.word_list li{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.float_right{
+    float: right;
+}
+
+.curcle_tick{
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 50% !important;
+    border: 1px solid #15ae15 !important;
+    background-color: #15ae15 !important;
+}
+
+.tick_icon{
+    font-size: 35px !important;
+    position: absolute !important;
+    color: #fff !important;
+    top: 13% !important;
+}
+
+.payment_text{
+    font-weight: 600 !important;
+    color: #0f0e20 !important;
+}
+.payment_tick {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.btn_secondary{
+    background-color: #0f0e20 !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    border-radius: 2rem !important;
+    font-size: 20px !important;
+}
+
+.card-modal{
+    background-color: #fde9d2 !important;
+    border-radius: 0 !important;
+    border-bottom: 5px solid red !important;
+}
+
+.word_list li{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
